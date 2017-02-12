@@ -73,9 +73,9 @@ function createTemplate(data){
             ${content}
         </div>
     </body>
-</html>
-`
-return htmlTemplate;
+    </html>
+    `
+    return htmlTemplate;
 }
 
 app.get('/', function (req, res) {
